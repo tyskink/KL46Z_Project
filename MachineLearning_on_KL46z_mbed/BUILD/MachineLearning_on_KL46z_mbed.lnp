@@ -29,8 +29,8 @@
 ".\build\fatfilesystem.o"
 ".\build\ff.o"
 ".\build\sdfilesystem.o"
-".\build\dl_math.o"
-".\build\ml_models.o"
+".\build\lkml_layers.o"
+".\build\lkml_math.o"
 --scatter "mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/MKL46Z4.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
