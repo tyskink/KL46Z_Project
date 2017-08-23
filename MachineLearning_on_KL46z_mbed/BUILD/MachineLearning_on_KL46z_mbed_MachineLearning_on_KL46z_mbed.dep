@@ -1,0 +1,486 @@
+Dependencies for Project 'MachineLearning_on_KL46z_mbed', Target 'MachineLearning_on_KL46z_mbed': (DO NOT MODIFY !)
+F (main.cpp)(0x59638536)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\main.o --omf_browse .\build\main.crf --depend .\build\main.d)
+I (mbed_config.h)(0x59624C1E)
+I (mbed/./mbed.h)(0x58B6FA82)
+I (mbed/./platform/toolchain.h)(0x58B6FA82)
+I (mbed/./platform/mbed_preprocessor.h)(0x58B6FA82)
+I (mbed/./platform/platform.h)(0x58B6FA82)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)
+I (mbed/platform/mbed_assert.h)(0x58B6FA82)
+I (mbed/./platform/mbed_error.h)(0x58B6FA82)
+I (mbed/./platform/mbed_interface.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_api.h)(0x58B6FA82)
+I (mbed/./platform/critical.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalOut.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalInOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusIn.h)(0x58B6FA82)
+I (mbed/./platform/PlatformMutex.h)(0x58B6FA82)
+I (mbed/./drivers/BusOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortIn.h)(0x58B6FA82)
+I (mbed/./hal/port_api.h)(0x58B6FA82)
+I (mbed/./drivers/PortInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortOut.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogIn.h)(0x58B6FA82)
+I (mbed/./hal/analogin_api.h)(0x58B6FA82)
+I (mbed/./platform/SingletonPtr.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogOut.h)(0x58B6FA82)
+I (mbed/./hal/analogout_api.h)(0x58B6FA82)
+I (mbed/./drivers/PwmOut.h)(0x58B6FA82)
+I (mbed/./hal/pwmout_api.h)(0x58B6FA82)
+I (mbed/./drivers/Serial.h)(0x58B6FA82)
+I (mbed/./drivers/Stream.h)(0x58B6FA82)
+I (mbed/./drivers/FileLike.h)(0x58B6FA82)
+I (mbed/./drivers/FileBase.h)(0x58B6FA82)
+I (mbed/./drivers/FileHandle.h)(0x58B6FA82)
+I (mbed/./drivers/SerialBase.h)(0x58B6FA82)
+I (mbed/platform/Callback.h)(0x58B6FA82)
+I (mbed/hal/serial_api.h)(0x58B6FA82)
+I (mbed/./hal/buffer.h)(0x58B6FA82)
+I (mbed/./hal/dma_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPI.h)(0x58B6FA82)
+I (mbed/./hal/spi_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPISlave.h)(0x58B6FA82)
+I (mbed/./drivers/I2C.h)(0x58B6FA82)
+I (mbed/./hal/i2c_api.h)(0x58B6FA82)
+I (mbed/./drivers/I2CSlave.h)(0x58B6FA82)
+I (mbed/./drivers/Ethernet.h)(0x58B6FA82)
+I (mbed/./drivers/CAN.h)(0x58B6FA82)
+I (mbed/./drivers/RawSerial.h)(0x58B6FA82)
+I (mbed/./drivers/Timer.h)(0x58B6FA82)
+I (mbed/./hal/ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Ticker.h)(0x58B6FA82)
+I (mbed/./drivers/TimerEvent.h)(0x58B6FA82)
+I (mbed/./hal/us_ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Timeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTicker.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimer.h)(0x58B6FA82)
+I (mbed/./drivers/LocalFileSystem.h)(0x58B6FA82)
+I (mbed/./drivers/InterruptIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_irq_api.h)(0x58B6FA82)
+I (mbed/./platform/wait_api.h)(0x58B6FA82)
+I (mbed/./hal/sleep_api.h)(0x58B6FA82)
+I (mbed/./platform/rtc_time.h)(0x58B6FA82)
+I (mbed/./platform/FunctionPointer.h)(0x58B6FA82)
+I (DL_Math.h)(0x59628388)
+I (SDFileSystem\SDFileSystem.h)(0x59626E1B)
+I (SDFileSystem/FATFileSystem/FATFileSystem.h)(0x5958B3BC)
+I (mbed/drivers/FileSystemLike.h)(0x58B6FA82)
+I (mbed/./drivers/DirHandle.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+F (mbed_config.h)(0x59624C1E)()
+F (.\VersionInfo.txt)(0x59625BB6)()
+F (mbed/drivers/AnalogIn.h)(0x58B6FA82)()
+F (mbed/hal/analogin_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/analogin_api.o)(0x58B6F952)()
+F (mbed/drivers/AnalogOut.h)(0x58B6FA82)()
+F (mbed/hal/analogout_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/analogout_api.o)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/arm_common_tables.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/arm_const_structs.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/arm_math.h)(0x58B6F952)()
+F (mbed/hal/buffer.h)(0x58B6FA82)()
+F (mbed/drivers/BusIn.h)(0x58B6FA82)()
+F (mbed/drivers/BusInOut.h)(0x58B6FA82)()
+F (mbed/drivers/BusOut.h)(0x58B6FA82)()
+F (mbed/platform/Callback.h)(0x58B6FA82)()
+F (mbed/platform/CallChain.h)(0x58B6FA82)()
+F (mbed/drivers/CAN.h)(0x58B6FA82)()
+F (mbed/hal/can_api.h)(0x58B6FA82)()
+F (mbed/hal/can_helper.h)(0x58B6FA82)()
+F (mbed/platform/CircularBuffer.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/clk_freqs.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/cmsis_nvic.o)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_ca9.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_ca_mmu.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_caFunc.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_caInstr.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm0.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm3.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm4.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm4_simd.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cm7.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cmSecureAccess.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_cmSimd.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_sc000.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/core_sc300.h)(0x58B6F952)()
+F (mbed/platform/critical.h)(0x58B6FA82)()
+F (mbed/platform/CThunk.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)()
+F (mbed/drivers/DigitalIn.h)(0x58B6FA82)()
+F (mbed/drivers/DigitalInOut.h)(0x58B6FA82)()
+F (mbed/drivers/DigitalOut.h)(0x58B6FA82)()
+F (mbed/drivers/DirHandle.h)(0x58B6FA82)()
+F (mbed/hal/dma_api.h)(0x58B6FA82)()
+F (mbed/hal/Driver_Common.h)(0x58B6FA82)()
+F (mbed/hal/Driver_Storage.h)(0x58B6FA82)()
+F (mbed/hal/emac_api.h)(0x58B6FA82)()
+F (mbed/drivers/Ethernet.h)(0x58B6FA82)()
+F (mbed/hal/ethernet_api.h)(0x58B6FA82)()
+F (mbed/drivers/FileBase.h)(0x58B6FA82)()
+F (mbed/drivers/FileHandle.h)(0x58B6FA82)()
+F (mbed/drivers/FileLike.h)(0x58B6FA82)()
+F (mbed/drivers/FilePath.h)(0x58B6FA82)()
+F (mbed/drivers/FileSystemLike.h)(0x58B6FA82)()
+F (mbed/platform/FunctionPointer.h)(0x58B6FA82)()
+F (mbed/hal/gpio_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/gpio_api.o)(0x58B6F952)()
+F (mbed/hal/gpio_irq_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/gpio_irq_api.o)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)()
+F (mbed/drivers/I2C.h)(0x58B6FA82)()
+F (mbed/hal/i2c_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/i2c_api.o)(0x58B6F952)()
+F (mbed/drivers/I2CSlave.h)(0x58B6FA82)()
+F (mbed/drivers/InterruptIn.h)(0x58B6FA82)()
+F (mbed/drivers/InterruptManager.h)(0x58B6FA82)()
+F (mbed/drivers/LocalFileSystem.h)(0x58B6FA82)()
+F (mbed/drivers/LowPowerTicker.h)(0x58B6FA82)()
+F (mbed/drivers/LowPowerTimeout.h)(0x58B6FA82)()
+F (mbed/drivers/LowPowerTimer.h)(0x58B6FA82)()
+F (mbed/hal/lp_ticker_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/mbed.ar)(0x58B6F952)()
+F (mbed/mbed.h)(0x58B6FA82)()
+F (mbed/platform/mbed_assert.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/mbed_board.o)(0x58B6F952)()
+F (mbed/platform/mbed_debug.h)(0x58B6FA82)()
+F (mbed/platform/mbed_error.h)(0x58B6FA82)()
+F (mbed/platform/mbed_interface.h)(0x58B6FA82)()
+F (mbed/platform/mbed_mem_trace.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/mbed_overrides.o)(0x58B6F952)()
+F (mbed/platform/mbed_preprocessor.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/mbed_rtx.h)(0x58B6F952)()
+F (mbed/platform/mbed_stats.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PeripheralPins.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/PeripheralPins.o)(0x58B6F952)()
+F (mbed/hal/pinmap.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/pinmap.o)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)()
+F (mbed/platform/platform.h)(0x58B6FA82)()
+F (mbed/platform/PlatformMutex.h)(0x58B6FA82)()
+F (mbed/hal/port_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/port_api.o)(0x58B6F952)()
+F (mbed/drivers/PortIn.h)(0x58B6FA82)()
+F (mbed/drivers/PortInOut.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)()
+F (mbed/drivers/PortOut.h)(0x58B6FA82)()
+F (mbed/drivers/PwmOut.h)(0x58B6FA82)()
+F (mbed/hal/pwmout_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/pwmout_api.o)(0x58B6F952)()
+F (mbed/drivers/RawSerial.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/retarget.o)(0x58B6F952)()
+F (mbed/hal/rtc_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/rtc_api.o)(0x58B6F952)()
+F (mbed/platform/rtc_time.h)(0x58B6FA82)()
+F (mbed/platform/semihost_api.h)(0x58B6FA82)()
+F (mbed/drivers/Serial.h)(0x58B6FA82)()
+F (mbed/hal/serial_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/serial_api.o)(0x58B6F952)()
+F (mbed/drivers/SerialBase.h)(0x58B6FA82)()
+F (mbed/platform/SingletonPtr.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/sleep.o)(0x58B6F952)()
+F (mbed/hal/sleep_api.h)(0x58B6FA82)()
+F (mbed/drivers/SPI.h)(0x58B6FA82)()
+F (mbed/hal/spi_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/spi_api.o)(0x58B6F952)()
+F (mbed/drivers/SPISlave.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/startup_MKL46Z4.o)(0x58B6F952)()
+F (mbed/drivers/Stream.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/sys.o)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/system_MKL46Z4.o)(0x58B6F952)()
+F (mbed/drivers/Ticker.h)(0x58B6FA82)()
+F (mbed/hal/ticker_api.h)(0x58B6FA82)()
+F (mbed/drivers/Timeout.h)(0x58B6FA82)()
+F (mbed/drivers/Timer.h)(0x58B6FA82)()
+F (mbed/drivers/TimerEvent.h)(0x58B6FA82)()
+F (mbed/platform/toolchain.h)(0x58B6FA82)()
+F (mbed/platform/Transaction.h)(0x58B6FA82)()
+F (mbed/hal/trng_api.h)(0x58B6FA82)()
+F (mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD/us_ticker.o)(0x58B6F952)()
+F (mbed/hal/us_ticker_api.h)(0x58B6FA82)()
+F (mbed/platform/wait_api.h)(0x58B6FA82)()
+F (SDFileSystem/FATFileSystem/ChaN/ccsbcs.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\ccsbcs.o --omf_browse .\build\ccsbcs.crf --depend .\build\ccsbcs.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+F (SDFileSystem/FATFileSystem/ChaN/diskio.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\diskio.o --omf_browse .\build\diskio.crf --depend .\build\diskio.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/FATFileSystem/ChaN/diskio.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (mbed/platform/mbed_debug.h)(0x58B6FA82)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)
+I (mbed/platform/mbed_assert.h)(0x58B6FA82)
+I (mbed/platform/mbed_preprocessor.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/FATFileSystem.h)(0x5958B3BC)
+I (mbed/drivers/FileSystemLike.h)(0x58B6FA82)
+I (mbed/./platform/platform.h)(0x58B6FA82)
+I (mbed/./drivers/FileBase.h)(0x58B6FA82)
+I (mbed/./platform/SingletonPtr.h)(0x58B6FA82)
+I (mbed/./platform/PlatformMutex.h)(0x58B6FA82)
+I (mbed/./drivers/FileHandle.h)(0x58B6FA82)
+I (mbed/./drivers/DirHandle.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+F (SDFileSystem/FATFileSystem/ChaN/diskio.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/FATDirHandle.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\fatdirhandle.o --omf_browse .\build\fatdirhandle.crf --depend .\build\fatdirhandle.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/FATDirHandle.h)(0x5958B3BC)
+I (mbed/drivers/DirHandle.h)(0x58B6FA82)
+I (mbed/drivers/FileHandle.h)(0x58B6FA82)
+F (SDFileSystem/FATFileSystem/FATDirHandle.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/FATFileHandle.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\fatfilehandle.o --omf_browse .\build\fatfilehandle.crf --depend .\build\fatfilehandle.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+I (mbed/platform/mbed_debug.h)(0x58B6FA82)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)
+I (mbed/platform/mbed_assert.h)(0x58B6FA82)
+I (mbed/platform/mbed_preprocessor.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/FATFileHandle.h)(0x5958B3BC)
+I (mbed/drivers/FileHandle.h)(0x58B6FA82)
+F (SDFileSystem/FATFileSystem/FATFileHandle.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/FATFileSystem.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\fatfilesystem.o --omf_browse .\build\fatfilesystem.crf --depend .\build\fatfilesystem.d)
+I (mbed_config.h)(0x59624C1E)
+I (mbed/./mbed.h)(0x58B6FA82)
+I (mbed/./platform/toolchain.h)(0x58B6FA82)
+I (mbed/./platform/mbed_preprocessor.h)(0x58B6FA82)
+I (mbed/./platform/platform.h)(0x58B6FA82)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)
+I (mbed/platform/mbed_assert.h)(0x58B6FA82)
+I (mbed/./platform/mbed_error.h)(0x58B6FA82)
+I (mbed/./platform/mbed_interface.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_api.h)(0x58B6FA82)
+I (mbed/./platform/critical.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalOut.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalInOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusIn.h)(0x58B6FA82)
+I (mbed/./platform/PlatformMutex.h)(0x58B6FA82)
+I (mbed/./drivers/BusOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortIn.h)(0x58B6FA82)
+I (mbed/./hal/port_api.h)(0x58B6FA82)
+I (mbed/./drivers/PortInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortOut.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogIn.h)(0x58B6FA82)
+I (mbed/./hal/analogin_api.h)(0x58B6FA82)
+I (mbed/./platform/SingletonPtr.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogOut.h)(0x58B6FA82)
+I (mbed/./hal/analogout_api.h)(0x58B6FA82)
+I (mbed/./drivers/PwmOut.h)(0x58B6FA82)
+I (mbed/./hal/pwmout_api.h)(0x58B6FA82)
+I (mbed/./drivers/Serial.h)(0x58B6FA82)
+I (mbed/./drivers/Stream.h)(0x58B6FA82)
+I (mbed/./drivers/FileLike.h)(0x58B6FA82)
+I (mbed/./drivers/FileBase.h)(0x58B6FA82)
+I (mbed/./drivers/FileHandle.h)(0x58B6FA82)
+I (mbed/./drivers/SerialBase.h)(0x58B6FA82)
+I (mbed/platform/Callback.h)(0x58B6FA82)
+I (mbed/hal/serial_api.h)(0x58B6FA82)
+I (mbed/./hal/buffer.h)(0x58B6FA82)
+I (mbed/./hal/dma_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPI.h)(0x58B6FA82)
+I (mbed/./hal/spi_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPISlave.h)(0x58B6FA82)
+I (mbed/./drivers/I2C.h)(0x58B6FA82)
+I (mbed/./hal/i2c_api.h)(0x58B6FA82)
+I (mbed/./drivers/I2CSlave.h)(0x58B6FA82)
+I (mbed/./drivers/Ethernet.h)(0x58B6FA82)
+I (mbed/./drivers/CAN.h)(0x58B6FA82)
+I (mbed/./drivers/RawSerial.h)(0x58B6FA82)
+I (mbed/./drivers/Timer.h)(0x58B6FA82)
+I (mbed/./hal/ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Ticker.h)(0x58B6FA82)
+I (mbed/./drivers/TimerEvent.h)(0x58B6FA82)
+I (mbed/./hal/us_ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Timeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTicker.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimer.h)(0x58B6FA82)
+I (mbed/./drivers/LocalFileSystem.h)(0x58B6FA82)
+I (mbed/./drivers/InterruptIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_irq_api.h)(0x58B6FA82)
+I (mbed/./platform/wait_api.h)(0x58B6FA82)
+I (mbed/./hal/sleep_api.h)(0x58B6FA82)
+I (mbed/./platform/rtc_time.h)(0x58B6FA82)
+I (mbed/./platform/FunctionPointer.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+I (mbed/platform/mbed_debug.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/FATFileSystem.h)(0x5958B3BC)
+I (mbed/drivers/FileSystemLike.h)(0x58B6FA82)
+I (mbed/./drivers/DirHandle.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/FATFileHandle.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/FATDirHandle.h)(0x5958B3BC)
+F (SDFileSystem/FATFileSystem/FATFileSystem.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/ChaN/ff.cpp)(0x5958B3BC)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\ff.o --omf_browse .\build\ff.crf --depend .\build\ff.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/diskio.h)(0x5958B3BC)
+F (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)()
+F (SDFileSystem/FATFileSystem/MemFileSystem.h)(0x5958B3BC)()
+F (SDFileSystem/SDFileSystem.cpp)(0x59626E3D)(--cpp -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\sdfilesystem.o --omf_browse .\build\sdfilesystem.crf --depend .\build\sdfilesystem.d)
+I (mbed_config.h)(0x59624C1E)
+I (SDFileSystem/SDFileSystem.h)(0x59626E1B)
+I (mbed/./mbed.h)(0x58B6FA82)
+I (mbed/./platform/toolchain.h)(0x58B6FA82)
+I (mbed/./platform/mbed_preprocessor.h)(0x58B6FA82)
+I (mbed/./platform/platform.h)(0x58B6FA82)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/objects.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cm0plus.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmInstr.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/core_cmFunc.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/system_MKL46Z4.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device/cmsis_nvic.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/PortNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PeripheralNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/PinNames.h)(0x58B6F952)
+I (mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/gpio_object.h)(0x58B6F952)
+I (mbed/platform/mbed_assert.h)(0x58B6FA82)
+I (mbed/./platform/mbed_error.h)(0x58B6FA82)
+I (mbed/./platform/mbed_interface.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_api.h)(0x58B6FA82)
+I (mbed/./platform/critical.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalOut.h)(0x58B6FA82)
+I (mbed/./drivers/DigitalInOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusIn.h)(0x58B6FA82)
+I (mbed/./platform/PlatformMutex.h)(0x58B6FA82)
+I (mbed/./drivers/BusOut.h)(0x58B6FA82)
+I (mbed/./drivers/BusInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortIn.h)(0x58B6FA82)
+I (mbed/./hal/port_api.h)(0x58B6FA82)
+I (mbed/./drivers/PortInOut.h)(0x58B6FA82)
+I (mbed/./drivers/PortOut.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogIn.h)(0x58B6FA82)
+I (mbed/./hal/analogin_api.h)(0x58B6FA82)
+I (mbed/./platform/SingletonPtr.h)(0x58B6FA82)
+I (mbed/./drivers/AnalogOut.h)(0x58B6FA82)
+I (mbed/./hal/analogout_api.h)(0x58B6FA82)
+I (mbed/./drivers/PwmOut.h)(0x58B6FA82)
+I (mbed/./hal/pwmout_api.h)(0x58B6FA82)
+I (mbed/./drivers/Serial.h)(0x58B6FA82)
+I (mbed/./drivers/Stream.h)(0x58B6FA82)
+I (mbed/./drivers/FileLike.h)(0x58B6FA82)
+I (mbed/./drivers/FileBase.h)(0x58B6FA82)
+I (mbed/./drivers/FileHandle.h)(0x58B6FA82)
+I (mbed/./drivers/SerialBase.h)(0x58B6FA82)
+I (mbed/platform/Callback.h)(0x58B6FA82)
+I (mbed/hal/serial_api.h)(0x58B6FA82)
+I (mbed/./hal/buffer.h)(0x58B6FA82)
+I (mbed/./hal/dma_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPI.h)(0x58B6FA82)
+I (mbed/./hal/spi_api.h)(0x58B6FA82)
+I (mbed/./drivers/SPISlave.h)(0x58B6FA82)
+I (mbed/./drivers/I2C.h)(0x58B6FA82)
+I (mbed/./hal/i2c_api.h)(0x58B6FA82)
+I (mbed/./drivers/I2CSlave.h)(0x58B6FA82)
+I (mbed/./drivers/Ethernet.h)(0x58B6FA82)
+I (mbed/./drivers/CAN.h)(0x58B6FA82)
+I (mbed/./drivers/RawSerial.h)(0x58B6FA82)
+I (mbed/./drivers/Timer.h)(0x58B6FA82)
+I (mbed/./hal/ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Ticker.h)(0x58B6FA82)
+I (mbed/./drivers/TimerEvent.h)(0x58B6FA82)
+I (mbed/./hal/us_ticker_api.h)(0x58B6FA82)
+I (mbed/./drivers/Timeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimeout.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTicker.h)(0x58B6FA82)
+I (mbed/./drivers/LowPowerTimer.h)(0x58B6FA82)
+I (mbed/./drivers/LocalFileSystem.h)(0x58B6FA82)
+I (mbed/./drivers/InterruptIn.h)(0x58B6FA82)
+I (mbed/./hal/gpio_irq_api.h)(0x58B6FA82)
+I (mbed/./platform/wait_api.h)(0x58B6FA82)
+I (mbed/./hal/sleep_api.h)(0x58B6FA82)
+I (mbed/./platform/rtc_time.h)(0x58B6FA82)
+I (mbed/./platform/FunctionPointer.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/FATFileSystem.h)(0x5958B3BC)
+I (mbed/drivers/FileSystemLike.h)(0x58B6FA82)
+I (mbed/./drivers/DirHandle.h)(0x58B6FA82)
+I (SDFileSystem/FATFileSystem/ChaN/ff.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/integer.h)(0x5958B3BC)
+I (SDFileSystem/FATFileSystem/ChaN/ffconf.h)(0x5958B3BC)
+I (mbed/platform/mbed_debug.h)(0x58B6FA82)
+F (SDFileSystem/SDFileSystem.h)(0x59626E1B)()
+F (.\DL_Math.h)(0x59628388)()
+F (.\ML_Models.h)(0x594912C3)()
+F (.\DL_Math.c)(0x5962864C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\dl_math.o --omf_browse .\build\dl_math.crf --depend .\build\dl_math.d)
+I (mbed_config.h)(0x59624C1E)
+I (DL_Math.h)(0x59628388)
+F (.\ML_Models.c)(0x59627684)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork -I . -I SDFileSystem -I SDFileSystem/FATFileSystem -I SDFileSystem/FATFileSystem/ChaN -I mbed/. -I mbed/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z -I mbed/TARGET_KL46Z/TARGET_Freescale/TARGET_KLXX/TARGET_KL46Z/device -I mbed/TARGET_KL46Z/TOOLCHAIN_ARM_STD -I mbed/drivers -I mbed/hal -I mbed/platform -I .. -DDEVICE_RTC=1 -DDEVICE_SLEEP=1 -DTOOLCHAIN_object -DTOOLCHAIN_ARM_STD -DTARGET_KLXX -D__CORTEX_M0PLUS -DTARGET_KL46Z -DDEVICE_SEMIHOST=1 -D__ASSERT_MSG -DTARGET_RELEASE --no_rtti -DDEVICE_PORTINOUT=1 -DTARGET_FF_ARDUINO -c -DTARGET_M0P -DDEVICE_SPISLAVE=1 -DDEVICE_PORTOUT=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_ANALOGOUT=1 --split_sections -DTARGET_LIKE_CORTEX_M0 -DDEVICE_ANALOGIN=1 -DDEVICE_PORTIN=1 -DDEVICE_ERROR_RED=1 -DTARGET_CORTEX_M -DARM_MATH_CM0PLUS -DTARGET_Freescale -DDEVICE_I2C=1 --preinclude=mbed_config.h -DTOOLCHAIN_ARM -DDEVICE_I2CSLAVE=1 -DMBED_BUILD_TIMESTAMP=1499617838.26 --no_depend_system_headers -DTARGET_UVISOR_UNSUPPORTED --md -DDEVICE_PWMOUT=1 -DTARGET_LIKE_MBED --gnu --apcs=interwork -DDEVICE_SPI=1 -D__MBED__=1 -DDEVICE_SERIAL=1 -DDEVICE_INTERRUPTIN=1 -D__CMSIS_RTOS --cpu=Cortex-M0 -D__MBED_CMSIS_RTOS_CM-I.\RTE\_MachineLearning_on_KL46z_mbed-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0-D__UVISION_VERSION="523" -DMKL46Z256xxx4-o .\build\ml_models.o --omf_browse .\build\ml_models.crf --depend .\build\ml_models.d)
+I (mbed_config.h)(0x59624C1E)
+I (DL_Math.h)(0x59628388)

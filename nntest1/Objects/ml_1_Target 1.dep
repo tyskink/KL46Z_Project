@@ -1,0 +1,305 @@
+Dependencies for Project 'ml_1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\mian.c)(0x594AE386)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\mian.o --omf_browse .\objects\mian.crf --depend .\objects\mian.d)
+I (.\MKL46Z4.H)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (pin_mux.h)(0x5949161D)
+I (clock_config.h)(0x57B02B48)
+I (USB_CDC.h)(0x59497116)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (usb_device_descriptor.h)(0x594970FB)
+I (.\usb_1.1.0\usb.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (ML_Models.h)(0x594912C3)
+F (.\DL_Math.c)(0x593FCAB4)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\dl_math.o --omf_browse .\objects\dl_math.crf --depend .\objects\dl_math.d)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F66926)
+F (.\DL_Math.h)(0x593FCAB6)()
+F (.\ML_Models.c)(0x594A451B)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\ml_models.o --omf_browse .\objects\ml_models.crf --depend .\objects\ml_models.d)
+I (DL_Math.h)(0x593FCAB6)
+F (.\ML_Models.h)(0x594912C3)()
+F (.\App_LED.c)(0x594912B9)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\app_led.o --omf_browse .\objects\app_led.crf --depend .\objects\app_led.d)
+I (.\MKL46Z4.H)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+F (.\clock_config.c)(0x5949294C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
+I (.\drivers\fsl_smc.h)(0x57B02B48)
+I (.\drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (.\drivers\fsl_clock.h)(0x59493763)
+I (clock_config.h)(0x57B02B48)
+F (.\clock_config.h)(0x57B02B48)()
+F (.\pin_mux.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (.\drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (.\drivers\fsl_clock.h)(0x59493763)
+I (.\drivers\fsl_port.h)(0x57B02B48)
+F (.\pin_mux.h)(0x5949161D)()
+F (.\MKL46Z4_features.h)(0x57B02B48)()
+F (.\drivers\fsl_clock.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_clock.o --omf_browse .\objects\fsl_clock.crf --depend .\objects\fsl_clock.d)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+F (.\drivers\fsl_smc.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_smc.o --omf_browse .\objects\fsl_smc.crf --depend .\objects\fsl_smc.d)
+I (drivers\fsl_smc.h)(0x57B02B48)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+F (.\drivers\fsl_common.c)(0x59493BC0)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_common.o --omf_browse .\objects\fsl_common.crf --depend .\objects\fsl_common.d)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+I (drivers\fsl_debug_console.h)(0x57B02B48)
+F (.\drivers\fsl_debug_console.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x57F66926)
+I (drivers\fsl_debug_console.h)(0x57B02B48)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+I (drivers\fsl_uart.h)(0x57B02B48)
+I (drivers\fsl_lpsci.h)(0x57B02B48)
+F (.\drivers\fsl_uart.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_uart.o --omf_browse .\objects\fsl_uart.crf --depend .\objects\fsl_uart.d)
+I (drivers\fsl_uart.h)(0x57B02B48)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+F (.\drivers\fsl_lpsci.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\fsl_lpsci.o --omf_browse .\objects\fsl_lpsci.crf --depend .\objects\fsl_lpsci.d)
+I (drivers\fsl_lpsci.h)(0x57B02B48)
+I (drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+I (drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (drivers\fsl_clock.h)(0x59493763)
+F (.\USB_CDC.c)(0x5953D639)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_cdc.o --omf_browse .\objects\usb_cdc.crf --depend .\objects\usb_cdc.d)
+I (usb_device_config.h)(0x57B02B48)
+I (.\usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (.\usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_device.h)(0x57B02B48)
+I (usb_device_cdc_acm.h)(0x57B02B48)
+I (usb_device_ch9.h)(0x57B02B48)
+I (usb_device_descriptor.h)(0x594970FB)
+I (USB_CDC.h)(0x59497116)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x57F66928)
+I (MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\drivers\fsl_clock.h)(0x59493763)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\assert.h)(0x57F66926)
+I (.\drivers\fsl_common.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x57F66928)
+F (.\usb_device_cdc_acm.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_device_cdc_acm.o --omf_browse .\objects\usb_device_cdc_acm.crf --depend .\objects\usb_device_cdc_acm.d)
+I (usb_device_config.h)(0x57B02B48)
+I (.\usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (.\usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_device.h)(0x57B02B48)
+I (usb_device_cdc_acm.h)(0x57B02B48)
+F (.\usb_device_ch9.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_device_ch9.o --omf_browse .\objects\usb_device_ch9.crf --depend .\objects\usb_device_ch9.d)
+I (usb_device_config.h)(0x57B02B48)
+I (.\usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (.\usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_device.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_device_dci.h)(0x57B02B48)
+I (usb_device_ch9.h)(0x57B02B48)
+F (.\usb_device_descriptor.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_device_descriptor.o --omf_browse .\objects\usb_device_descriptor.crf --depend .\objects\usb_device_descriptor.d)
+I (usb_device_config.h)(0x57B02B48)
+I (.\usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (.\usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (.\usb_1.1.0\usb_device.h)(0x57B02B48)
+I (usb_device_cdc_acm.h)(0x57B02B48)
+I (usb_device_descriptor.h)(0x594970FB)
+F (.\MKL46Z4.h)(0x57B02B48)()
+F (.\USB_CDC.h)(0x59497116)()
+F (.\usb_device_cdc_acm.h)(0x57B02B48)()
+F (.\usb_device_ch9.h)(0x57B02B48)()
+F (.\usb_device_config.h)(0x57B02B48)()
+F (.\usb_device_descriptor.h)(0x594970FB)()
+F (.\usb_1.1.0\usb.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_device.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_device_dci.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_device_khci.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_khci.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_misc.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_osa.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_osa_bm.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_osa_freertos.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_spec.h)(0x57B02B48)()
+F (.\usb_1.1.0\usb_device_dci.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_device_dci.o --omf_browse .\objects\usb_device_dci.crf --depend .\objects\usb_device_dci.d)
+I (.\usb_device_config.h)(0x57B02B48)
+I (usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (usb_1.1.0\usb_device.h)(0x57B02B48)
+I (usb_1.1.0\usb_device_dci.h)(0x57B02B48)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (usb_1.1.0\usb_device_khci.h)(0x57B02B48)
+I (.\usb_device_ch9.h)(0x57B02B48)
+F (.\usb_1.1.0\usb_device_khci.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_device_khci.o --omf_browse .\objects\usb_device_khci.crf --depend .\objects\usb_device_khci.d)
+I (.\usb_device_config.h)(0x57B02B48)
+I (usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (usb_1.1.0\usb_device.h)(0x57B02B48)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+I (usb_1.1.0\usb_khci.h)(0x57B02B48)
+I (usb_1.1.0\usb_device_dci.h)(0x57B02B48)
+I (usb_1.1.0\usb_device_khci.h)(0x57B02B48)
+F (.\usb_1.1.0\usb_osa_bm.c)(0x57B02B48)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\usb_osa_bm.o --omf_browse .\objects\usb_osa_bm.crf --depend .\objects\usb_osa_bm.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (usb_1.1.0\usb.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F66928)
+I (usb_1.1.0\usb_osa.h)(0x57B02B48)
+I (usb_1.1.0\usb_osa_bm.h)(0x57B02B48)
+I (usb_1.1.0\usb_misc.h)(0x57B02B48)
+I (usb_1.1.0\usb_spec.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x57F66928)
+I (.\drivers\fsl_device_registers.h)(0x5949188A)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)
+I (.\MKL46Z4_features.h)(0x57B02B48)
+F (RTE\Device\MKL46Z256xxx4\startup_MKL46Z4.s)(0x55FBCAE8)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" --cpreproc_opts '-DDEBUG' -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include--pd "__UVISION_VERSION SETA 523" --pd "_RTE_ SETA 1" --pd "MKL46Z256xxx4 SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE\Device\MKL46Z256xxx4\system_MKL46Z4.c)(0x55FBCAE8)(--c99 -c --cpu Cortex-M0+ -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .. -I .\ -I .\drivers -I .\usb_1.1.0 --library_interface=armcc --library_type=standardlib -I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include-D__UVISION_VERSION="523" -D_RTE_ -DMKL46Z256xxx4 -D_DEBUG="1" -DCPU_MKL46Z256VLL4 -DUSB_STACK_BM -DFRDM_KL46Z -DFREEDOM-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F66928)
+I (.\MKL46Z4.h)(0x57B02B48)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\core_cm0plus.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_compiler.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include\cmsis_armcc.h)(0x5898ABFA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.13.0\Device\Include\system_MKL46Z4.h)(0x55FBCAE8)

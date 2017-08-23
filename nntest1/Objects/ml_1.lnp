@@ -1,0 +1,26 @@
+--cpu Cortex-M0+
+".\objects\mian.o"
+".\objects\dl_math.o"
+".\objects\ml_models.o"
+".\objects\app_led.o"
+".\objects\clock_config.o"
+".\objects\pin_mux.o"
+".\objects\fsl_clock.o"
+".\objects\fsl_smc.o"
+".\objects\fsl_common.o"
+".\objects\fsl_debug_console.o"
+".\objects\fsl_uart.o"
+".\objects\fsl_lpsci.o"
+".\objects\usb_cdc.o"
+".\objects\usb_device_cdc_acm.o"
+".\objects\usb_device_ch9.o"
+".\objects\usb_device_descriptor.o"
+".\objects\usb_device_dci.o"
+".\objects\usb_device_khci.o"
+".\objects\usb_osa_bm.o"
+".\objects\startup_mkl46z4.o"
+".\objects\system_mkl46z4.o"
+--library_type=microlib --diag_suppress 6314 --strict --scatter ".\MKL46Z256xxx4_flash.scf"
+--remove --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ml_1.map" -o .\Objects\ml_1.axf
