@@ -2,6 +2,10 @@
 #include "mbed.h"
 #include "SDFileSystem.h"
 
+#include "LKML_Config.h"
+#include "LKML_Math.h"
+#include "LKML_Layers.h"
+
 
 SDFileSystem sd(PTA16, PTA17, PTA15, PTB9, "sd"); // the pinout on the mbed Cool Components workshop board  MOSI, MISO, SCLK, SSEL
  
@@ -11,6 +15,14 @@ DigitalOut led_green(LED_GREEN);
 DigitalIn sw2(SW1);
 DigitalIn sw3(SW3);
 Serial pc(USBTX, USBRX);
+
+
+	LK_Accuarcy_Data Test_feature[784];
+	 LK_Data TestFeature = {.W=28,.H=28,.D=1,.Size=784,.Matrix=&Test_feature[0] };
+			
+	LK_Accuarcy_Data ZeroCenter_Parameters[784];
+	 LK_Data ZeroCenterParameter = { .W = 28,.H = 28,.D = 1,.Size = 784,.Matrix = &ZeroCenter_Parameters[0] };
+	
 
 int main() 
 	{
@@ -47,8 +59,9 @@ FILE *fp_theta2 = fopen("/sd/theta2.kldouble", "rb");
 
 //printf("{A}: %d Processing Start \r\n",result);
 			
-			
-			
+
+	
+	LK_ZeroCenterLayer(&TestFeature, &ZeroCenterParameter);
 
 
 printf("{Z}:  Processing end,");
